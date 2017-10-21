@@ -25,7 +25,6 @@ domains
 	colonias=symbol
 	plumas=symbol
 	papeles=symbol
-	cantidad=integer
 	
 	lineapedido=linea(symbol,symbol)
 	lista=lineapedido*
@@ -53,46 +52,38 @@ domains
 predicates
 
 	/*establecer posiciones de las estanterias*/
-	estanteria(symbol,symbol).
-	
-	/*establecer objetos de las estanterias*/
-	ubicacion(symbol,symbol,cantidad)
+/*	estanteria(s1,ps1)
+	estanteria(s2,ps2)
+	estanteria(s3,ps3)
+	estanteria(s4,ps4)
+	estanteria(s5,ps5)
+	estanteria(s6,ps6)
+	estanteria(s7,ps7)
+	estanteria(s8,ps8)*/
 
-	/*predicado para introducir un pedido*/
+
+	/* Contenido del almacen 
+	ubicacion(patatas,s1,200)
+	ubicacion(melones,s1,100)
+	ubicacion(boligrafos,s2,500)
+	ubicacion(boligrafos,s3,400)
+
+	ubicacion(melocotones,s4,200)
+	ubicacion(berzas,s4,100)
+	ubicacion(papeles,s5,500)
+	ubicacion(boligrafos,s6,400)
+	
+	ubicacion(patatas,s1,200)
+	ubicacion(melones,s1,100)
+	ubicacion(plumas,s7,500)
+	ubicacion(plumas,s8,400)
+	
+	ubicacion(colonias,s3,150)
+	ubicacion(ratones,s4,210)*/
+	
 	realizarpedido().
 
 clauses 
-
-
-	/*establecer posiciones de las estanterias*/
-	estanteria(s1,ps1).
-	estanteria(s2,ps2).
-	estanteria(s3,ps3).
-	estanteria(s4,ps4).
-	estanteria(s5,ps5).
-	estanteria(s6,ps6).
-	estanteria(s7,ps7).
-	estanteria(s8,ps8).
-
-
-	/* Contenido del almacen */
-	ubicacion(patatas,s1,200).
-	ubicacion(melones,s1,100).
-	ubicacion(boligrafos,s2,500).
-	ubicacion(boligrafos,s3,400).
-	ubicacion(melocotones,s4,200).
-	ubicacion(berzas,s4,100).
-	ubicacion(papeles,s5,500).
-	ubicacion(boligrafos,s6,400).
-	ubicacion(patatas,s1,200).
-	ubicacion(melones,s1,100).
-	ubicacion(plumas,s7,500).
-	ubicacion(plumas,s8,400).
-	ubicacion(colonias,s3,150).
-	ubicacion(ratones,s4,210).
-	
-
-
 	realizarPedido():-
 		write('\n').  
   

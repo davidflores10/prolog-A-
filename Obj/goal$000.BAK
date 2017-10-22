@@ -51,7 +51,7 @@ predicates
 
 	busquedaElemento(lineaPedido).
 	
-	first(linea, symbol).
+	first(lista, symbol).
 	
 
 clauses 

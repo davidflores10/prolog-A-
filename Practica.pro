@@ -57,6 +57,9 @@ predicates
 	
 	/*establecer objetos de las estanterias*/
 	ubicacion(symbol,symbol,cantidad)
+	
+	/*establecer las posiciones de los objetos*/
+	conectado(symbol,symbol,integer)
 
 	/*predicado para introducir un pedido*/
 	realizarpedido().
@@ -74,6 +77,19 @@ clauses
 	estanteria(s7,ps7).
 	estanteria(s8,ps8).
 
+	/*establecer posiciones conectadas*/
+	conectado(ps1,pc1,5).
+	conectado(ps2,pc2,5).
+	conectado(ps3,pc3,5).
+	conectado(ps4,pc4,5).
+	conectado(ps5,pc1,5).
+	conectado(ps6,pc2,5).
+	conectado(ps7,pc3,5).
+	conectado(ps8,pc4,5).
+	
+	/*posicion inicial y final*/
+	conectado(pss,pc1,5).
+	conectado(pst,pc4,5).
 
 	/* Contenido del almacen */
 	ubicacion(patatas,s1,200).

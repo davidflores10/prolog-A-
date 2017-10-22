@@ -1,7 +1,7 @@
  PDC Linker 50.35 20000313.10.LINK55.
-  Module 'Exe\Practica.exe' Map. Sat Oct 21 13:22:12 2017
+  Module 'Exe\Practica.exe' Map. Sun Oct 22 11:45:56 2017
 
-Frame 010000   Size 00B320.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+Frame 010000   Size 00B380.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 Frame 020000   Size 000210.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 Frame 030000   Size 076230.  Name=<   .text>, 	Chars=60000020h. [CER]
 Frame 0B0000   Size 0008F0.  Name=<  PRODBG>, 	Chars=C0000040h. [IRW]
@@ -9,7 +9,7 @@ Frame 0C0000   Size 000650.  Name=<    .bss>, 	Chars=C0000080h. [URW]
 
 	--- S e g m e n t s : ---
 
-Frame 010000   Size 00B320.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+Frame 010000   Size 00B380.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 010000:000000 003338   .bss::BSS::DGROUP F=4
    010000   Module 'C:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
    010000   Module 'VPISYS.OBJ'
@@ -34,78 +34,78 @@ Frame 010000   Size 00B320.  Name=<   .data>, 	Chars=C0000040h. [IRW]
    0132E8   Module 'rntsynch.obj'
    013338   Module 'pfpmath.obj'
    013338   Module 'rntcfci.obj'
-010000:003338 007FCC   .data::DATA::DGROUP F=4
+010000:003338 00802C   .data::DATA::DGROUP F=4
    013338   Module 'C:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
    013398   Module 'C:\Users\a\Desktop\personal\clase\cuarto de carrera\inteligencia artificial\Prolog practica\Obj\VPITools.obj'
    013FC8   Module 'C:\Users\a\Desktop\personal\clase\cuarto de carrera\inteligencia artificial\Prolog practica\Obj\Practica.obj'
    016678   Module 'Obj\Practica.sym'
-   017C58   Module 'VPIERR.OBJ'
-   017CB0   Module 'VPISYS.OBJ'
-   017EA8   Module 'VPICREAT.OBJ'
-   017EC0   Module 'VPIDIALS.OBJ'
-   018150   Module 'VPIWIN.OBJ'
-   018158   Module 'VPIFONT.OBJ'
-   018184   Module 'VPIAPPLD.OBJ'
-   018194   Module 'VPIPICT.OBJ'
-   018198   Module 'VPIMENU.OBJ'
-   01819C   Module 'VPIMISC.OBJ'
-   0181A0   Module 'VPIMETA.OBJ'
-   0181A8   Module 'EDITHAND.OBJ'
-   0181B8   Module 'EDITFUNC.OBJ'
-   018FE0   Module 'EDITFIND.OBJ'
-   018FE8   Module 'EDITHYP.OBJ'
-   018FF0   Module 'EDITOPT.OBJ'
-   019520   Module 'EDITHASH.OBJ'
-   019528   Module 'EDITPARS.OBJ'
-   019BB8   Module 'EDITVIEW.OBJ'
-   019BC8   Module 'EDITDLG.OBJ'
-   019FAC   Module 'EDITMOUS.OBJ'
-   01A070   Module 'runinit.obj'
-   01A248   Module 'runbtrak.obj'
-   01A364   Module 'errinit.obj'
-   01A394   Module 'runflags.obj'
-   01A3A0   Module 'osinit.obj'
-   01A3A4   Module 'memsidi.obj'
-   01A3A4   Module 'rntassz.obj'
-   01A3AC   Module 'convpred.obj'
-   01A3B0   Module 'rnttstr.obj'
-   01A400   Module 'iowritef.obj'
-   01A440   Module 'rntrdtrm.obj'
-   01A44C   Module 'errrep1.obj'
-   01A4C8   Module 'runexcpt.obj'
-   01A590   Module 'memheapn.obj'
-   01A5D0   Module 'osabort.obj'
-   01A638   Module 'chinit.obj'
-   01AC38   Module 'hashinit.obj'
-   01AC40   Module 'dbmin.obj'
-   01AC50   Module 'iomin.obj'
-   01AC78   Module 'rntinit.obj'
-   01AD58   Module 'iobuff.obj'
-   01AD60   Module 'pfpbindc.obj'
-   01AEA8   Module 'rnthread.obj'
-   01AEB0   Module 'conv_si.obj'
-   01AEBC   Module 'rununify.obj'
-   01AEC0   Module 'errfatal.obj'
-   01AEF0   Module 'fnmfns.obj'
-   01AF00   Module 'erracces.obj'
-   01B038   Module 'scanreal.obj'
-   01B040   Module 'convdata.obj'
-   01B058   Module 'conv_fs.obj'
-   01B078   Module 'ioreadln.obj'
-   01B178   Module 'errputms.obj'
-   01B188   Module 'errsys.obj'
-   01B190   Module 'errlast.obj'
-   01B198   Module 'emmend.obj'
-   01B1A8   Module 'rntcfact.obj'
-   01B1C8   Module 'memobj.obj'
-   01B2C4   Module 'pfpmath.obj'
-   01B2D0   Module 'osgdir.obj'
-   01B2D4   Module 'osfmatch.obj'
-   01B2FC   Module 'osgenvs.obj'
-   01B300   Module 'rntcfci.obj'
-   01B300   Module 'VPICLIP.OBJ'
-010000:00B310 000010   PROMODE::DATA::DGROUP F=4
-   01B310   Module 'C:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
+   017CB8   Module 'VPIERR.OBJ'
+   017D10   Module 'VPISYS.OBJ'
+   017F08   Module 'VPICREAT.OBJ'
+   017F20   Module 'VPIDIALS.OBJ'
+   0181B0   Module 'VPIWIN.OBJ'
+   0181B8   Module 'VPIFONT.OBJ'
+   0181E4   Module 'VPIAPPLD.OBJ'
+   0181F4   Module 'VPIPICT.OBJ'
+   0181F8   Module 'VPIMENU.OBJ'
+   0181FC   Module 'VPIMISC.OBJ'
+   018200   Module 'VPIMETA.OBJ'
+   018208   Module 'EDITHAND.OBJ'
+   018218   Module 'EDITFUNC.OBJ'
+   019040   Module 'EDITFIND.OBJ'
+   019048   Module 'EDITHYP.OBJ'
+   019050   Module 'EDITOPT.OBJ'
+   019580   Module 'EDITHASH.OBJ'
+   019588   Module 'EDITPARS.OBJ'
+   019C18   Module 'EDITVIEW.OBJ'
+   019C28   Module 'EDITDLG.OBJ'
+   01A00C   Module 'EDITMOUS.OBJ'
+   01A0D0   Module 'runinit.obj'
+   01A2A8   Module 'runbtrak.obj'
+   01A3C4   Module 'errinit.obj'
+   01A3F4   Module 'runflags.obj'
+   01A400   Module 'osinit.obj'
+   01A404   Module 'memsidi.obj'
+   01A404   Module 'rntassz.obj'
+   01A40C   Module 'convpred.obj'
+   01A410   Module 'rnttstr.obj'
+   01A460   Module 'iowritef.obj'
+   01A4A0   Module 'rntrdtrm.obj'
+   01A4AC   Module 'errrep1.obj'
+   01A528   Module 'runexcpt.obj'
+   01A5F0   Module 'memheapn.obj'
+   01A630   Module 'osabort.obj'
+   01A698   Module 'chinit.obj'
+   01AC98   Module 'hashinit.obj'
+   01ACA0   Module 'dbmin.obj'
+   01ACB0   Module 'iomin.obj'
+   01ACD8   Module 'rntinit.obj'
+   01ADB8   Module 'iobuff.obj'
+   01ADC0   Module 'pfpbindc.obj'
+   01AF08   Module 'rnthread.obj'
+   01AF10   Module 'conv_si.obj'
+   01AF1C   Module 'rununify.obj'
+   01AF20   Module 'errfatal.obj'
+   01AF50   Module 'fnmfns.obj'
+   01AF60   Module 'erracces.obj'
+   01B098   Module 'scanreal.obj'
+   01B0A0   Module 'convdata.obj'
+   01B0B8   Module 'conv_fs.obj'
+   01B0D8   Module 'ioreadln.obj'
+   01B1D8   Module 'errputms.obj'
+   01B1E8   Module 'errsys.obj'
+   01B1F0   Module 'errlast.obj'
+   01B1F8   Module 'emmend.obj'
+   01B208   Module 'rntcfact.obj'
+   01B228   Module 'memobj.obj'
+   01B324   Module 'pfpmath.obj'
+   01B330   Module 'osgdir.obj'
+   01B334   Module 'osfmatch.obj'
+   01B35C   Module 'osgenvs.obj'
+   01B360   Module 'rntcfci.obj'
+   01B360   Module 'VPICLIP.OBJ'
+010000:00B370 000010   PROMODE::DATA::DGROUP F=4
+   01B370   Module 'C:\VIP\Vpi\Lib\Win32\MSC\Init32.obj'
 
 Frame 020000   Size 000210.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 020000:000000 000208   .rdata::.rdata::.rdata F=4
@@ -302,9 +302,9 @@ Frame 0C0000   Size 000650.  Name=<    .bss>, 	Chars=C0000080h. [URW]
 0C0000:000000 000650   *** Comm1 ***::BSS::<no group> F=0
 
 	     ------- Names by value Map ---------
-Frame 010000   Size 00B320.  Name=<   .data>, 	Chars=C0000040h. [IRW]
+Frame 010000   Size 00B380.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 010000:000000 003338   .bss::BSS::DGROUP F=4
-010000:003338 007FCC   .data::DATA::DGROUP F=4
+010000:003338 00802C   .data::DATA::DGROUP F=4
 --- From 'conv_fs.obj'
 01:0001333A __fltused  (Idle)
 --- From 'rntcfact.obj'
@@ -456,201 +456,201 @@ Frame 010000   Size 00B320.  Name=<   .data>, 	Chars=C0000040h. [IRW]
 --- From 'Obj\Practica.sym'
 01:00016678 _PROLOG_SymbolTable 
 --- From 'VPISYS.OBJ'
-01:00017CB8 _szTile 
-01:00017CC8 _szCascade 
-01:00017CDC _szArrange 
-01:00017CE0 _xPDC_szWindow 
+01:00017D18 _szTile 
+01:00017D28 _szCascade 
+01:00017D3C _szArrange 
+01:00017D40 _xPDC_szWindow 
 --- From 'VPIMISC.OBJ'
-01:00017CEC _xPDC_szButton 
-01:00017CF8 _xPDC_szEdit 
+01:00017D4C _xPDC_szButton 
+01:00017D58 _xPDC_szEdit 
 --- From 'VPICLIP.OBJ'
-01:00017D04 _xPDC_szStatic 
+01:00017D64 _xPDC_szStatic 
 --- From 'VPIMISC.OBJ'
-01:00017D10 _xPDC_szListBox 
-01:00017D20 _xPDC_szComboBox 
-01:00017D30 _xPDC_szScrollBar 
+01:00017D70 _xPDC_szListBox 
+01:00017D80 _xPDC_szComboBox 
+01:00017D90 _xPDC_szScrollBar 
 --- From 'VPICREAT.OBJ'
-01:00017D34 _hLibr3d 
+01:00017D94 _hLibr3d 
 --- From 'VPIMENU.OBJ'
-01:00017D38 _xPDC_ACTIVE 
+01:00017D98 _xPDC_ACTIVE 
 --- From 'VPISYS.OBJ'
-01:00017D3C _xPDC_TASK_PALETTE 
-01:00017D40 _xPDC_TASK_NUMPALETTES  (Idle)
+01:00017D9C _xPDC_TASK_PALETTE 
+01:00017DA0 _xPDC_TASK_NUMPALETTES  (Idle)
 --- From 'VPIMISC.OBJ'
-01:00017D44 _xPDC_skipevents 
+01:00017DA4 _xPDC_skipevents 
 --- From 'VPIWIN.OBJ'
-01:00017D58 _xPDC_szPDCTopLevel 
-01:00017D68 _xPDC_szPDCChild 
-01:00017D78 _xPDC_szPDCFrame 
-01:00017D88 _xPDC_szPDCMDIChild 
+01:00017DB8 _xPDC_szPDCTopLevel 
+01:00017DC8 _xPDC_szPDCChild 
+01:00017DD8 _xPDC_szPDCFrame 
+01:00017DE8 _xPDC_szPDCMDIChild 
 --- From 'VPICREAT.OBJ'
-01:00017D9C _xPDC_szDynIcon 
+01:00017DFC _xPDC_szDynIcon 
 --- From 'VPIWIN.OBJ'
-01:00017DB4 _xPDC_PrintClass 
+01:00017E14 _xPDC_PrintClass 
 --- From 'VPIAPPLD.OBJ'
-01:00017DC4 _xPDC_ExecApp 
+01:00017E24 _xPDC_ExecApp 
 --- From 'VPIMISC.OBJ'
-01:00017DC8 _xPDC_task_win 
+01:00017E28 _xPDC_task_win 
 --- From 'VPIWIN.OBJ'
-01:00017DCC _xPDC_bMDI 
-01:00017DD0 _xPDC_b3D 
+01:00017E2C _xPDC_bMDI 
+01:00017E30 _xPDC_b3D 
 --- From 'VPITIMER.OBJ'
-01:00017DD4 _xPDC_ACCELERATORS 
-01:00017DD8 _xPDC_bACCELERATORS 
+01:00017E34 _xPDC_ACCELERATORS 
+01:00017E38 _xPDC_bACCELERATORS 
 --- From 'VPIWIN.OBJ'
-01:00017DDC _xPDC_tBarheight 
-01:00017DE0 _xPDC_sBarheight 
-01:00017DE4 _xPDC_lBarheight 
-01:00017DE8 _xPDC_rBarheight 
-01:00017DEC _xPDC_bERASEBACKGROUND 
-01:00017DF0 _xPDC_bPLATFORM_VALIDATE 
-01:00017DF4 _xPDC_bPRN_Q_RAW 
+01:00017E3C _xPDC_tBarheight 
+01:00017E40 _xPDC_sBarheight 
+01:00017E44 _xPDC_lBarheight 
+01:00017E48 _xPDC_rBarheight 
+01:00017E4C _xPDC_bERASEBACKGROUND 
+01:00017E50 _xPDC_bPLATFORM_VALIDATE 
+01:00017E54 _xPDC_bPRN_Q_RAW 
 --- From 'VPIMETA.OBJ'
-01:00017DF8 _xPDC_ARG_VAL 
+01:00017E58 _xPDC_ARG_VAL 
 --- From 'VPIWIN.OBJ'
-01:00017DFC _xPDC_bSuppressUpdateCheck 
+01:00017E5C _xPDC_bSuppressUpdateCheck 
 --- From 'VPIMISC.OBJ'
-01:00017E00 _xPDC_ERRHANDLER 
+01:00017E60 _xPDC_ERRHANDLER 
 --- From 'VPICURS.OBJ'
-01:00017E04 _bPDC_obscure_cursor 
+01:00017E64 _bPDC_obscure_cursor 
 --- From 'VPIMISC.OBJ'
-01:00017E08 _xPDC_twdDLL 
+01:00017E68 _xPDC_twdDLL 
 --- From 'VPISYS.OBJ'
-01:00017E0C _xPDC_num_threads 
+01:00017E6C _xPDC_num_threads 
 --- From 'VPIDIALS.OBJ'
-01:00017EF0 _xPDC_Ask_lpData 
-01:00018040 _xPDC_LIST_lpData 
+01:00017F50 _xPDC_Ask_lpData 
+01:000180A0 _xPDC_LIST_lpData 
 --- From 'EDITWRAP.OBJ'
-01:000181B8 _ed_TabSize 
+01:00018218 _ed_TabSize 
 --- From 'EDITVIEW.OBJ'
-01:000181BC _ed_IndentSize 
-01:000181C0 _ed_TabMode 
+01:0001821C _ed_IndentSize 
+01:00018220 _ed_TabMode 
 --- From 'EDITFUNC.OBJ'
-01:000181C8 _ed_EdKeyWords 
+01:00018228 _ed_EdKeyWords 
 --- From 'EDITFIND.OBJ'
-01:00018FE0 _ed_iCurrFindLine 
-01:00018FE4 _ed_iCurrFindColm 
+01:00019040 _ed_iCurrFindLine 
+01:00019044 _ed_iCurrFindColm 
 --- From 'EDITDLG.OBJ'
-01:00019E10 _ed_Search_Opt_Word 
-01:00019E14 _ed_Search_Opt_Case 
-01:00019E18 _ed_Search_Rbut_Forw 
-01:00019E1C _ed_Search_Rbut_Entr 
-01:00019E20 _ed_Search_Entr 
-01:00019E24 _ed_Search_Sel 
-01:00019E28 _ed_repldlgwin 
+01:00019E70 _ed_Search_Opt_Word 
+01:00019E74 _ed_Search_Opt_Case 
+01:00019E78 _ed_Search_Rbut_Forw 
+01:00019E7C _ed_Search_Rbut_Entr 
+01:00019E80 _ed_Search_Entr 
+01:00019E84 _ed_Search_Sel 
+01:00019E88 _ed_repldlgwin 
 --- From 'EDITMOUS.OBJ'
-01:0001A05C _ed_bPressed 
+01:0001A0BC _ed_bPressed 
 --- From 'runinit.obj'
-01:0001A0A4 _PTD_ptr 
+01:0001A104 _PTD_ptr 
 --- From 'rntcfci.obj'
-01:0001A248 ___MainThreadDescr__ 
+01:0001A2A8 ___MainThreadDescr__ 
 --- From 'runexit1.obj'
-01:0001A290 _RUN_BTop 
+01:0001A2F0 _RUN_BTop 
 --- From 'rntcfci.obj'
-01:0001A290 ___PTD__ 
+01:0001A2F0 ___PTD__ 
 --- From 'runexcpt.obj'
-01:0001A294 _RUN_TrapTop 
+01:0001A2F4 _RUN_TrapTop 
 --- From 'runbtrak.obj'
-01:0001A298 _RUN_Trail 
-01:0001A29C _RUN_TTop 
-01:0001A2A0 _RUN_MaxTTop 
+01:0001A2F8 _RUN_Trail 
+01:0001A2FC _RUN_TTop 
+01:0001A300 _RUN_MaxTTop 
 --- From 'ioclose.obj'
-01:0001A2A4 _RUN_ExitCode 
+01:0001A304 _RUN_ExitCode 
 --- From 'runexit1.obj'
-01:0001A2A8 _RUN_ErrorFlag 
+01:0001A308 _RUN_ErrorFlag 
 --- From 'runbtrak.obj'
-01:0001A2AC _RUN_SaveStack 
+01:0001A30C _RUN_SaveStack 
 --- From 'errlast.obj'
-01:0001A2B0 _ERR_SaveErrorNo 
+01:0001A310 _ERR_SaveErrorNo 
 --- From 'runbtrak.obj'
-01:0001A2B4 _ERR_SaveSourceOffset  (Idle)
-01:0001A2B8 _ERR_SaveIncludeNo  (Idle)
+01:0001A314 _ERR_SaveSourceOffset  (Idle)
+01:0001A318 _ERR_SaveIncludeNo  (Idle)
 --- From 'memgstk.obj'
-01:0001A2BC _MEM_CommitTop 
+01:0001A31C _MEM_CommitTop 
 --- From 'memadjst.obj'
-01:0001A2C0 _MEM_GTop 
+01:0001A320 _MEM_GTop 
 --- From 'memgstk.obj'
-01:0001A2C4 _MEM_GBase 
-01:0001A2C8 _MEM_GMax 
+01:0001A324 _MEM_GBase 
+01:0001A328 _MEM_GMax 
 --- From 'runbtrak.obj'
-01:0001A2CC _User_Data  (Idle)
-01:0001A2D0 _ErrorCursor_Ptr  (Idle)
+01:0001A32C _User_Data  (Idle)
+01:0001A330 _ErrorCursor_Ptr  (Idle)
 --- From 'erracces.obj'
-01:0001A2D4 _ERR_NativeOsErrorCode 
-01:0001A2D8 _RUN_ExceptionCode 
+01:0001A334 _ERR_NativeOsErrorCode 
+01:0001A338 _RUN_ExceptionCode 
 --- From 'runexcpt.obj'
-01:0001A2DC _RUN_ExceptionInProgress 
+01:0001A33C _RUN_ExceptionInProgress 
 --- From 'erracces.obj'
-01:0001A2E0 _ERR_AdditiveInfo 
+01:0001A340 _ERR_AdditiveInfo 
 --- From 'errinit.obj'
-01:0001A364 _ERR_SourceOffset  (Idle)
-01:0001A368 _ERR_IncludeNo  (Idle)
+01:0001A3C4 _ERR_SourceOffset  (Idle)
+01:0001A3C8 _ERR_IncludeNo  (Idle)
 --- From 'memobj.obj'
-01:0001A36C _ERR_FileTable 
+01:0001A3CC _ERR_FileTable 
 --- From 'errlast.obj'
-01:0001A370 _ERR_SaveFileTable 
+01:0001A3D0 _ERR_SaveFileTable 
 --- From 'errsys.obj'
-01:0001A380 _ERR_FileName 
-01:0001A388 _ERR_FileDir 
-01:0001A38C _ERR_File 
+01:0001A3E0 _ERR_FileName 
+01:0001A3E8 _ERR_FileDir 
+01:0001A3EC _ERR_File 
 --- From 'errputms.obj'
-01:0001A390 _ERR_UserErrRepFns 
+01:0001A3F0 _ERR_UserErrRepFns 
 --- From 'ioreadln.obj'
-01:0001A394 _RUN_IsVpi 
+01:0001A3F4 _RUN_IsVpi 
 --- From 'errputms.obj'
-01:0001A398 _RUN_IsEasyWin 
+01:0001A3F8 _RUN_IsEasyWin 
 --- From 'brksimp.obj'
-01:0001A39C _RUN_IsEasyWinBreaked 
+01:0001A3FC _RUN_IsEasyWinBreaked 
 --- From 'osinit.obj'
-01:0001A3A0 _NT_LibraryNeeded_v52 
+01:0001A400 _NT_LibraryNeeded_v52 
 --- From 'rntpchar.obj'
-01:0001A440 _RNT_WorkStr 
+01:0001A4A0 _RNT_WorkStr 
 --- From 'rntpstr.obj'
-01:0001A444 _RNT_WorkStrLen 
+01:0001A4A4 _RNT_WorkStrLen 
 --- From 'rntrdtrm.obj'
-01:0001A448 _RNT_SaveWorkStr 
+01:0001A4A8 _RNT_SaveWorkStr 
 --- From 'memheapn.obj'
-01:0001A590 _MemManagerDescr 
-01:0001A5C0 _MEM_HStat_CB 
+01:0001A5F0 _MemManagerDescr 
+01:0001A620 _MEM_HStat_CB 
 --- From 'chinit.obj'
-01:0001A638 _CH_LowerTab 
-01:0001A738 _CH_UpperTab 
-01:0001A838 _CH_ClassTab 
+01:0001A698 _CH_LowerTab 
+01:0001A798 _CH_UpperTab 
+01:0001A898 _CH_ClassTab 
 --- From 'hashlkup.obj'
-01:0001AC38 _HASH_GlobSymbPtr 
+01:0001AC98 _HASH_GlobSymbPtr 
 --- From 'hashsym.obj'
-01:0001AC3C _HASH_SymbRoot 
+01:0001AC9C _HASH_SymbRoot 
 --- From 'dbmin.obj'
-01:0001AC40 _DB_FDesArr 
-01:0001AC44 _DB_Initialized 
-01:0001AC48 _DB_MemBases 
-01:0001AC4C _DB_NoOfDbSel 
+01:0001ACA0 _DB_FDesArr 
+01:0001ACA4 _DB_Initialized 
+01:0001ACA8 _DB_MemBases 
+01:0001ACAC _DB_NoOfDbSel 
 --- From 'ioin.obj'
-01:0001AC50 _IO_Vars 
+01:0001ACB0 _IO_Vars 
 --- From 'iomin.obj'
-01:0001AC70 _IO_SystemPF 
+01:0001ACD0 _IO_SystemPF 
 --- From 'rntinit.obj'
-01:0001AC78 _RNT_iiii 
-01:0001AC8C _RNT_ReadTermErrorOccured 
-01:0001AC90 _RNT_ReadTermErrorLinePos 
+01:0001ACD8 _RNT_iiii 
+01:0001ACEC _RNT_ReadTermErrorOccured 
+01:0001ACF0 _RNT_ReadTermErrorLinePos 
 --- From 'iogetln.obj'
-01:0001AD58 _IOBUFF_Size 
-01:0001AD5C _IOBUFF_Rate 
+01:0001ADB8 _IOBUFF_Size 
+01:0001ADBC _IOBUFF_Rate 
 --- From 'rununify.obj'
-01:0001AEBC _RUN_uc 
+01:0001AF1C _RUN_uc 
 --- From 'convdata.obj'
-01:0001B040 _CONV_HexChar 
+01:0001B0A0 _CONV_HexChar 
 --- From 'emmend.obj'
-01:0001B198 _EMM_Active 
-01:0001B19C _EMM_Frame  (Idle)
-01:0001B1A0 _EMM_Pages  (Idle)
+01:0001B1F8 _EMM_Active 
+01:0001B1FC _EMM_Frame  (Idle)
+01:0001B200 _EMM_Pages  (Idle)
 --- From 'rntcfact.obj'
-01:0001B1A8 ___  (Idle)
+01:0001B208 ___  (Idle)
 --- From 'memobj.obj'
-01:0001B1C8 _MEM_ObjectsListHead 
-010000:00B310 000010   PROMODE::DATA::DGROUP F=4
+01:0001B228 _MEM_ObjectsListHead 
+010000:00B370 000010   PROMODE::DATA::DGROUP F=4
 --- From 'rntcfci.obj'
-01:0001B310 endbyt 
+01:0001B370 endbyt 
 Frame 020000   Size 000210.  Name=<  .rdata>, 	Chars=40000040h. [IR]
 020000:000000 000208   .rdata::.rdata::.rdata F=4
 Frame 030000   Size 076230.  Name=<   .text>, 	Chars=60000020h. [CER]
@@ -989,7 +989,7 @@ Frame 030000   Size 076230.  Name=<   .text>, 	Chars=60000020h. [CER]
 03:00049515 _CFG_Load  (Idle)
 03:00049517 Practica$StackOverFlow  (Idle)
 03:0004951C Practica$error  (Idle)
-03:0004952C Practica$realizarpedido$463 
+03:0004952C Practica$realizarpedido$464 
 03:00049554 _PROLOG_Goal 
 --- From 'VPIERR.OBJ'
 03:00049580 _vpi_ErrorMsg 
